@@ -1,0 +1,8 @@
+{
+  "name": "kory",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "c761408f"
+}
