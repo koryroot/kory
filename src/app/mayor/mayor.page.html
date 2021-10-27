@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>mayor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br> <br> <br> <br>
+  <ion-list>
+    <ion-item>
+      <ion-label>Primer numero: </ion-label>
+      <ion-input [(ngModel)] = "num1" type = "number"></ion-input>
+    </ion-item>
+    <br> <br> 
+
+    <ion-item>
+      
+      <ion-label>Segundo numero: </ion-label>
+      <ion-input [(ngModel)] = "num2" type = "number"></ion-input>
+    </ion-item>
+    
+    <br> <br> <br>
+    <ion-button (click)= "Mayor()" color = "primary">Mayor</ion-button>
+    <ion-label>{{resultado}}</ion-label>
+  
+  </ion-list>
+
+</ion-content>

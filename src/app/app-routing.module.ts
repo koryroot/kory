@@ -10,6 +10,22 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'tabla',
+    loadChildren: () => import('./tabla/tabla.module').then( m => m.TablaPageModule)
+  },
+  {
+    path: 'mayor',
+    loadChildren: () => import('./mayor/mayor.module').then( m => m.MayorPageModule)
+  },
+  {
+    path: 'kory',
+    loadChildren: () => import('./kory/kory.module').then( m => m.KoryPageModule)
   }
 ];
 
